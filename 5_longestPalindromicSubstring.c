@@ -71,6 +71,7 @@ char* mancherAlgorithm(char *s)
   result[length] = '\0';
   free(vector);
   free(modifiedString);
+
   return result;
 }
 
