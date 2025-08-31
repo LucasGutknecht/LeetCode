@@ -69,6 +69,7 @@ char* mancherAlgorithm(char *s)
   char *result = (char *)malloc((length + 1) * sizeof(char));
   strncpy(result, s + start, length);
   result[length] = '\0';
+
   free(vector);
   free(modifiedString);
 
